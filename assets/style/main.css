@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Labrada', serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: antiquewhite;
+    width: 434px;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 90vw;
+    background-color: aquamarine;
+}
+
+.info-container {
+    background-color: blueviolet;
+    height: 58vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dev-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.about{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.buttons{
+    margin-top:34px;
+}
+.buttons button{
+padding:.5rem;
+border-radius: 4.5rem;
+border-style:none;
+font-weight: bold;
+font-size: 17px;
+margin: 0 3px;
+cursor: pointer;
+}
+.buttons button:hover{
+    background-color: brown;
+}
+.dev-img img {
+    height: 58vh;
+}
