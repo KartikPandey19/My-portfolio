@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
 
+:root {
+    --primary-color: #fb923c;
+    --secondary-color: ;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -54,34 +59,42 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.hello{
+
+.hello {
     font-size: 65px;
     font-family: 'Courier New', Courier, monospace;
 }
-.name{
+
+
+.name {
     font-size: 50px;
     font-weight: bold;
-    
+
 }
-.about{
+
+.about {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
-.buttons{
-    margin-top:34px;
+
+.buttons {
+    margin-top: 34px;
 }
-.buttons button{
-padding:.5rem;
-border-radius: 4.5rem;
-border-style:none;
-font-weight: bold;
-font-size: 17px;
-margin: 0 3px;
-cursor: pointer;
+
+.buttons button {
+    padding: .5rem;
+    border-radius: 4.5rem;
+    border-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
 }
-.buttons button:hover{
+
+.buttons button:hover {
     background-color: brown;
 }
+
 .dev-img img {
     height: 58vh;
 }

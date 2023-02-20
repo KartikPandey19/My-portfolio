@@ -1,0 +1,38 @@
+.info-container {
+    flex-direction: column;
+    margin:20px;
+}
+
+.heading {
+    font-size: 52px;
+    margin-bottom: -90px;
+}
+
+.main-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-detail p {
+    margin: 0.5rem 0;
+    font-size: 22px;
+
+}
+
+.main-detail p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.social-media-icons {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-icons a {
+    padding: .5rem;
+    font-size: 26px;
+
+}
