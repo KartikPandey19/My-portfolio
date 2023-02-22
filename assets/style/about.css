@@ -1,0 +1,24 @@
+.info{
+    margin-top: 90px;
+    margin-left: 12px;
+    padding: .2rem;
+}
+.info h1{
+    font-size:51px;
+}
+.skill-box {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.skill-box li{
+margin: .5rem;
+border: 1px solid red;
+padding:.2rem;
+font-size: 25px ;
+}
+.skill-box img{
+    height:52px;
+    width:54px;
+}

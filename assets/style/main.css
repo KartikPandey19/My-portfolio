@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #fb923c;
-    --secondary-color: ;
+    --secondary-color:#ecfdf5 ;
 }
 
 * {
@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Labrada', serif;
+    background-color: var(--secondary-color);
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
 }
 
 .sidebar {
-    background-color: antiquewhite;
+   
     width: 434px;
 }
 
@@ -42,11 +43,11 @@ body {
 
 .main {
     width: 90vw;
-    background-color: aquamarine;
+   
 }
 
 .info-container {
-    background-color: blueviolet;
+    
     height: 58vh;
     width: 80vw;
     margin: 80px auto;
