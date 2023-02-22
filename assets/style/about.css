@@ -10,7 +10,6 @@
     list-style: none;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 .skill-box li{
 margin: .5rem;
